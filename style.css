@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef9ed;
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MTJfMTMx%2FMDAxNzE1NDg4OTQwOTgw.Bk1EARHhL66DHardfXSNe2wxahvLGM5dWm8zEZU5roAg.5ePjv9x-Yc88-6xurLTVxKM3lnn4bjOE-44mwsSI75og.JPEG%2FIMG_1423.JPG&type=a340'); 
+    background-position: 1100px 480px;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.todo-container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.todo-container {
+    background-color: #f4cff2;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #2db0ce;
+    font-family:"Playfair Display", serif;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#title, #description, #due-date {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#description {
+    resize: vertical;
+}
+
+#add-btn {
+    padding: 10px;
+    border: none;
+    background-color: #72df8c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #218838;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+#todo-list li {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list li .actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#todo-list li .edit-btn,
+#todo-list li .delete-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#todo-list li .edit-btn {
+    background-color: #ffe957;
+}
+
+#todo-list li .edit-btn:hover {
+    background-color: #ffe957;
+}
+
+#todo-list li .delete-btn {
+    background-color: #dc3545;
+}
+
+#todo-list li .delete-btn:hover {
+    background-color: #c82333;
+}
